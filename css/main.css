@@ -133,7 +133,7 @@ footer {
 .main-section-blogspage {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: 1fr 100px 500px 500px;
+   grid-template-rows: 1fr 100px 400px 420px;
 }
 
 .principal-section-blogs {
@@ -156,7 +156,7 @@ footer {
 .principal-title {
    margin-top: 50px;
    margin-left: 20px;
-   margin-right: 5px;
+   margin-right: 20px;
 }
 .principal-title p {
    font-size: 15px;
@@ -172,15 +172,19 @@ footer {
    background: #ccd1d9;
    border: 1px solid #47cfac;
    margin-top: 20px;
+   width: 100%;
 }
 .princpial-section-blogpost {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 500px 500px;
+   grid-template-rows: 400px 400px;
    grid-column-start: 1;
    grid-column-end: 4;
    grid-row-start: 3;
    grid-row-end: 5;
+   grid-gap: 25px;
+   margin-left: 40px;
+   margin-right: 40px;
    
 }
 .principal-blogpost {
@@ -193,8 +197,7 @@ footer {
    margin-right: 40px;
 }
 .blogspost-section {
-   margin-left: 40px;
-   margin-right: 40px;
+
 }
 .title-blogs-post {
    font-size: 20px;
