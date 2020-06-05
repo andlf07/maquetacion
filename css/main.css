@@ -112,7 +112,7 @@ nav .profile-link a {
 
 .body-blog {
    background-image: unset;
-   position: unset;
+   position: absolute;
 }
 footer {
    width: 100%;
